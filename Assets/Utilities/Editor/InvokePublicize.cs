@@ -7,7 +7,7 @@ namespace Utilities.Editor
 {
     public static class InvokePublicize
     {
-        [MenuItem("Modding/Publicize Assembly-CSharp.dll")]
+        [MenuItem("Modding/Publicize Ksp2Redux.dll")]
         public static void Publicize()
         {
             string gameManagedDir = ThunderKitSetting.GetOrCreateSettings<ThunderKitSettings>().ManagedAssembliesPath;

@@ -208,7 +208,7 @@ namespace Redux.Template.Editor
             foreach (var candidate in new[]
                      {
                          "Assets/ImportKsp2ToEditor.asset",
-                         "Packages/ksp2community.ksp2unitytools/ImportKsp2ToEditor.asset"
+                         "Packages/ksp2redux.sdk/ImportKsp2ToEditor.asset"
                      })
                 if (File.Exists(candidate)) return candidate;
 
