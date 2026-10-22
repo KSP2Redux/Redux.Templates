@@ -16,7 +16,7 @@
     "com.unity.ugui": "https://github.com/KSP2Community/KSP2-UGUI.git#unity66",
     "com.unity.vectorgraphics": "3.0.0-preview.7",
     "com.unity.visualscripting": "1.9.12",
-    "ksp2redux.sdk": "https://github.com/KSP2Redux/SDK.git#26w43a",
+    "ksp2redux.sdk": "0.2.9-26w43a",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.adaptiveperformance": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
@@ -54,5 +54,14 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "KSP2 Redux",
+      "url": "https://upm.ksp2redux.org",
+      "scopes": [
+        "ksp2redux"
+      ]
+    }
+  ]
 }
